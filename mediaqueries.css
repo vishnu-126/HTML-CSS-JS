@@ -1,0 +1,61 @@
+@media screen and (max-width: 1200px) {
+  #nav_bar {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+}
+#profile,
+  .section-container {
+    display: block;
+  }
+.sub-text{
+  display: block;
+}
+@media screen and (max-width: 1600px) {
+  #profile {
+    display: flex;
+    height: 70vh;
+    margin-bottom: 6rem;
+    flex-wrap: wrap;
+  }
+  }
+
+  @media screen and (max-width: 600px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+      text-align: center;
+    }
+  }
+
+@media(max-width:1200px){
+  .total-container{
+    display: block;
+    gap: 30px;
+    height: 70vh;
+  }
+  .grid-container{
+    margin-top: 100px;
+    gap: 30px;
+    height: 100vh;
+  }
+}
+

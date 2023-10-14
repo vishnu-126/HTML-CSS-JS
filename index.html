@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My porfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <script src="script.js"></script>
+  <nav id="nav_bar">
+    <div class="logo1">Vishnu kalyan</div>
+    <div>
+      <ul class="list">
+        <li><a href="#About">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Vishnu kalyan</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <div class="Heading_container">
+    <div><h1 class="main_text">WELCOME <span class="sub-text">Here You can find my Skills and Achievements. </span></h1></div>
+  </div>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img class="image_profile" src="./assets/profile-pic.jpg" alt="John Doe profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Vishnu kalyan</h1>
+      <p class="section__text__p2">Frontend Developer</p>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2"
+          onclick="window.open('./assets/resume_vishnu.pdf')"
+        >
+          Resume
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img
+          src="./assets/linkedin.png"
+          alt="My LinkedIn profile"
+          class="icon"
+          onclick="location.href='https://www.linkedin.com/in/vishnu-kalyan-chakravarthi-korukonda-ab64951a4/'"
+        />
+        <img
+          src="./assets/github.png"
+          alt="My Github profile"
+          class="icon"
+          onclick="location.href='https://github.com/vishnu-126'"
+        />
+      </div>
+    </div>
+  </section>
+  
+  <div class="grid-container">
+    <div class="total-container">
+      <div class="grid_box1">
+        <div class="grid_item1">
+          <img class="htmlcss logo" src="./Assets/html_and_css_logo-removebg-preview.png" alt="logos" >
+        </div>
+        <div class="grid_item2"><p class="p1">HTML & CSS</p></div>
+        <div class="grid_item3">
+          <ul class="list_points">
+            <li><p>Have a complete understanding of HTML5</p></li>
+            <li><p>Creating Beautiful website's using CSS3</p> </li>
+            <li><p>Understood the concept of Flexbox and Grid</p></li>
+            <li><p>Created websites using mediaqueries and Floats</p></li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid_box1">
+        <div class="grid_item1">
+          <img class="htmlcss logo" src="./Assets/javascript logo (1).png" alt="logos" >
+        </div>
+        <div class="grid_item2"><p class="p1">JavaScript</p></div>
+        <div class="grid_item3">
+          <ul class="list_points">
+            <li><p> Understand JavaScript's variables, data types, and basic operators.</p></li>
+            <li><p> Concept of DOM dynamically update web pages.</p></li>
+            <li><p>Master control structures like if statements,switch,for loops,while loops.</p> </li>
+            <li><p></p></li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid_box1">
+        <div class="grid_item1">
+          <img class="Bootstrap logo" src="./Assets/bootstrap-logo-removebg-preview.png" alt="logos" >
+        </div>
+        <div class="grid_item2"><p class="p1" >Bootstrap</p></div>
+        <div class="grid_item3">
+          <ul class="list_points">
+            <li><p>Bootstrap Framework Proficiency</p></li>
+            <li><p>Bootstrap Components Customization</p> </li>
+            <li><p>Cross-Browser Compatibility</p></li>
+            <li><p>Performance Optimization</p></li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid_box1">
+        <div class="grid_item1">
+          <img class="react logo" src="./Assets/React_logo_logotype_emblem-removebg-preview.png" alt="logos" >
+        </div>
+        <div class="grid_item2"><p class="p1">React</p></div>
+        <div class="grid_item3">
+          <ul class="list_points">
+            <li><p>React Component Development</p></li>
+            <li><p>React Router for Navigation</p> </li>
+            <li><p>Debugging with DevTools</p></li>
+            <li><p>Responsive Design</p></li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid_box1">
+        <div class="grid_item1">
+          <img class="htmlcss logo" src="./Assets/GitHub-logo-removebg-preview.png" alt="logos" >
+        </div>
+        <div class="grid_item2"><p class="p1">GIT</p></div>
+        <div class="grid_item3">
+          <ul class="list_points">
+            <li><p>Version Control with Git</p></li>
+            <li><p>Repository Management</p> </li>
+            <li><p>Git Workflow</p></li>
+            <li><p>Git Collaboration</p></li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid_box1">
+        <div class="grid_item1">
+          <img class="ui logo" src="./Assets/ux-ui-trends-1-removebg-preview.png" alt="logos" >
+        </div>
+        <div class="grid_item2"><p class="p1">UI/UX Design.</p></div>
+        <div class="grid_item3">
+          <ul class="list_points">
+            <li><p>Wireframing and Prototyping</p></li>
+            <li><p>User Research</p> </li>
+            <li><p>Information Architecture</p></li>
+            <li><p>Adobe Creative Suite</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div> 
+</body>
+</html>
